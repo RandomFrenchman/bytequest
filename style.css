@@ -1,6 +1,6 @@
 body {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     background-color:#55227D;
     color: #FFF;
     font-family: 'Milonga', cursive;
@@ -16,6 +16,10 @@ a:link, a:visited {
     color: #FFF;
 }
 
+a:hover {
+    font-weight: bold;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -24,7 +28,7 @@ nav {
     margin-bottom: 40px;
 }
 
-article {
+main {
     font-size: 48px;
     align-items: center;
     display: flex;
@@ -32,7 +36,7 @@ article {
     position: relative;
 }
 
-article p {
+main p {
     text-align: center;
     max-width: 400px;
 }
